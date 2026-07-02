@@ -1,0 +1,38 @@
+# Maven / Java build output
+target/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*.log
+replay_pid*.log
+
+# H2 embedded database files (locked at runtime)
+data/
+*.mv.db
+*.trace.db
+
+# Log files
+logs/
+*.log
+*.err.txt
+*.out.txt
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# IDE / OS
+.idea/
+*.iml
+untitled/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Helper scripts (local only)
+push-to-github.bat
+do-git-push.ps1
+git-push-window.ps1
+
